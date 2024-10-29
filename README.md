@@ -59,10 +59,14 @@ PCB
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📟 Codigos y software
-
+MQTT
+PWM
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ⚡Hardware
-
+ESP32
+Step-Down
+Modulo de carga (TP4056)
+Tira led RGB
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🛠️ Conclusiones finales
 Los objetivos que queremos conseguir con este proyecto es aplicar todos los conocimientos que hemos adquirido con el paso de los años, además de aprender nuevos. Además de brindarle al usuario una lámpara la cual cumpla su función decorativa y de iluminación.
