@@ -32,10 +32,12 @@ MQTT
 El MQTT es un protocolo de mensajería que funciona como “Cliente - Servidor”. El cliente sería la lámpara que tiene que estar conectado al servidor y el servidor sería la app del celular que estaría conectado a wifi.
 Es necesario el MQTT en el proyecto porque sirve como conexión para la comunicación con el micro controlador (ESP32)
 
+
 PWM
 
 El pwm es una técnica que se utiliza para transmitir señales analógicas cuya señal portadora será digital. En esta técnica se modifica el ciclo de trabajo de una señal periódica (una senoidal o una cuadrada, por ejemplo), ya sea para transmitir información a través de un canal de comunicaciones o para controlar la cantidad de energía que se envía a una carga.
 Básicamente, consiste en activar una salida digital durante un tiempo y mantenerla apagada durante el resto, generando así pulsos positivos que se repiten de manera constante.
+
 
 Combinación de colores
 
@@ -47,10 +49,12 @@ En la app se puede prender y apagar los tres leds principales a tu gusto así co
 🔌 Conexiones esquematicas
 
 ESQUEMATICO
+
 ![Captura de pantalla 2024-10-29 103627](https://github.com/user-attachments/assets/428ba8a4-1c9d-4c4c-a153-7ae0898b586e)
 
 
 PCB
+
 ![Captura de pantalla 2024-10-29 103658](https://github.com/user-attachments/assets/5d013eff-d4bc-4204-a4fe-df0698b17f67)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
