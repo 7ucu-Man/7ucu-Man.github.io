@@ -6,7 +6,6 @@ LAMPARA ELECTRONICA ADVANCE
 
 
 
-IMAGEN FINAL DEL PROYECTO*
 ![Captura de pantalla 2024-10-29 103329](https://github.com/user-attachments/assets/93936b83-1bd0-48de-af7b-4972f1e8836e)
 
 Nuestro proyecto se basa en una lámpara, la cual se puede controlar por medio de una aplicación móvil-página web, siendo posible determinar su encendido, apagado, como también su intensidad entre los colores que se utilizan en la lámpara: verde, rojo, azul y blaco.
