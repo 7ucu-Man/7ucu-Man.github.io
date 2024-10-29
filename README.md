@@ -72,11 +72,11 @@ _El ESP32 se conecta a tu red Wi-Fi utilizando el SSID y la contraseña que defi
 _Utiliza la librería Blink para interactuar con una aplicación en tu smartphone. Blynk permite controlar y monitorear dispositivos de forma remota.
 _La autenticación con Blink se hace mediante un token (BLYNK_AUTH_T0KEN), lo que permite asociar tu ESP32 con la aplicación en la nube de Blynk.
 
- 2. Control de LEDs RGB:
+ 5. Control de LEDs RGB:
 _Los pines GPIO del ESP32 (pines 17, 19 y 23) están conectados a los canales rojo, verde y azul de los LEDs RGB, respectivamente. Estos pines controlan la intensidad de cada color mediante PWM.
 _PWM (Modulación por ancho de pulso): El ESP32 ajusta la cantidad de corriente que pasa a cada color de los LEDs. Al variar el ciclo de trabajo del PWM (un valor entre 0 y 255), puedes cambiar la intensidad del rojo, verde y azul, logrando diferentes colores combinados.
 
- 3. Interacción con la App Blynk:
+ 6. Interacción con la App Blynk:
 _Desde la app de Blink, tienes un botón que enciende o apaga los LEDs, y sliders (deslizadores) que controlan la intensidad de los colores rojo, verde y azul.
 _Los valores de los sliders se envían desde la app Blink al ESP32 mediante los pines virtuales V1 (rojo), V2 (verde) y V3 (azul).
 _Cada vez que cambias un slider en la app, el valor se envía al ESP32, y la función “analogWrite( )” ajusta la intensidad de cada color en los LEDs.
