@@ -69,7 +69,9 @@ Características del ESP32 en el proyecto:
 
  1. Conectividad Wi-Fi y Blynk:
 _El ESP32 se conecta a tu red Wi-Fi utilizando el SSID y la contraseña que defines en el código.
+
 _Utiliza la librería Blink para interactuar con una aplicación en tu smartphone. Blynk permite controlar y monitorear dispositivos de forma remota.
+
 _La autenticación con Blink se hace mediante un token (BLYNK_AUTH_T0KEN), lo que permite asociar tu ESP32 con la aplicación en la nube de Blynk.
 
  5. Control de LEDs RGB:
