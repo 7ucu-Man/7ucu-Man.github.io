@@ -50,12 +50,12 @@ En la app se puede prender y apagar los tres leds principales a tu gusto así co
 
 ESQUEMATICO
 
-![Captura de pantalla 2024-10-29 103627](https://github.com/user-attachments/assets/428ba8a4-1c9d-4c4c-a153-7ae0898b586e)
+*IMAGEN
 
 
 PCB
 
-![Captura de pantalla 2024-10-29 103658](https://github.com/user-attachments/assets/5d013eff-d4bc-4204-a4fe-df0698b17f67)
+*IMAGEN
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📟 Codigos y software
@@ -63,10 +63,52 @@ MQTT
 PWM
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ⚡Hardware
+
 ESP32
+Características del ESP32 en el proyecto:
+
+ 1. Conectividad Wi-Fi y Blynk:
+_El ESP32 se conecta a tu red Wi-Fi utilizando el SSID y la contraseña que defines en el código.
+_Utiliza la librería Blink para interactuar con una aplicación en tu smartphone. Blynk permite controlar y monitorear dispositivos de forma remota.
+_La autenticación con Blink se hace mediante un token (BLYNK_AUTH_T0KEN), lo que permite asociar tu ESP32 con la aplicación en la nube de Blynk.
+
+ 2. Control de LEDs RGB:
+_Los pines GPIO del ESP32 (pines 17, 19 y 23) están conectados a los canales rojo, verde y azul de los LEDs RGB, respectivamente. Estos pines controlan la intensidad de cada color mediante PWM.
+_PWM (Modulación por ancho de pulso): El ESP32 ajusta la cantidad de corriente que pasa a cada color de los LEDs. Al variar el ciclo de trabajo del PWM (un valor entre 0 y 255), puedes cambiar la intensidad del rojo, verde y azul, logrando diferentes colores combinados.
+
+ 3. Interacción con la App Blynk:
+_Desde la app de Blink, tienes un botón que enciende o apaga los LEDs, y sliders (deslizadores) que controlan la intensidad de los colores rojo, verde y azul.
+_Los valores de los sliders se envían desde la app Blink al ESP32 mediante los pines virtuales V1 (rojo), V2 (verde) y V3 (azul).
+_Cada vez que cambias un slider en la app, el valor se envía al ESP32, y la función “analogWrite( )” ajusta la intensidad de cada color en los LEDs.
+
+
+
 Step-Down
+
+_Alta eficiencia: Los convertidores Step Down suelen tener una eficiencia del 85% al 95%, lo que significa que se pierde muy poca energía en forma de calor.
+_Regulación de voltaje: Estos dispositivos permiten un control preciso del voltaje de salida.
+_Pequeño tamaño: Son compactos y fáciles de integrar en proyectos electrónicos.
+
+
 Modulo de carga (TP4056)
+
+_Cargador para baterías de litio: Diseñado específicamente para cargar baterías de iones de litio (Li-Ion) o de polímero de litio (Li-Po).
+_Voltaje de entrada: 4.5V a 5.5V, comúnmente alimentado por un puerto USB (5V).
+_Corriente de carga: Ajustable, con un valor predeterminado de 1A.
+_Protección integrada: Protección contra sobrecarga, sobredescarga y cortocircuitos. Esto lo hace muy seguro para baterías de litio, que son más sensibles a la sobrecarga y sobredescarga.
+_Indicadores LED: Tiene dos LEDs que indican el estado de la carga:
+-Rojo: La batería se está cargando.
+-Azul: La batería está completamente cargada. 
+
+
 Tira led RGB
+
+Características principales:
+_LEDs RGB: Cada LED en la tira contiene tres chips LED: uno rojo, uno verde y uno azul. Estos se controlan individualmente para mezclar los colores y obtener el color deseado.
+_Control individual o en segmentos: Algunas tiras RGB permiten el control individual de cada LED (tiras direccionables como las WS2812B o WS2811), mientras que en otras la tira se controla en segmentos, lo que significa que todos los LEDs en una sección específica cambiarán al mismo color.
+_Voltaje de operación: Las tiras de LEDs RGB generalmente funcionan a 5V, 12V o 24V, dependiendo del tipo y fabricante.
+_Controlador: Para manipular los colores y los efectos de la tira, se necesita un controlador. Puedes utilizar controladores comerciales o microcontroladores como el Arduino, ESP32, o plataformas como Blynk para tener control remoto.
+_Consumo de corriente: Las tiras RGB consumen una cantidad significativa de corriente, especialmente cuando están encendidas al máximo brillo. Es importante asegurarse de que la fuente de alimentación sea adecuada para soportar el consumo.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🛠️ Conclusiones finales
 Los objetivos que queremos conseguir con este proyecto es aplicar todos los conocimientos que hemos adquirido con el paso de los años, además de aprender nuevos. Además de brindarle al usuario una lámpara la cual cumpla su función decorativa y de iluminación.
