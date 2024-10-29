@@ -18,7 +18,7 @@ Nuestro proyecto se basa en una lámpara, la cual se puede controlar por medio d
 
 🔌 Conexiones esquematicas
 
-📟 Codigos y software
+📟 Software
 
 ⚡ Hardware
 
@@ -62,9 +62,38 @@ PCB
 *IMAGEN
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📟 Codigos y software
+📟 Software
+
 MQTT
+
+Características del MQTT
+
+_Ligero y eficiente: Los clientes MQTT requieren pocos recursos para poder funcionar y optimizar el ancho de banda de la red.
+
+_Seguridad: El MQTT facilita el cifrado de mensajes mediante TLS y la autenticación de clientes.
+
+_TLS: es un protocolo de seguridad que ofrece privacidad e integridad de datos para las comunicaciones de internet.
+
+_Entrega de mensajes confiables: El MQTT tiene 3 niveles de calidad de servicio:
+
+0: Como máximo una vez
+
+1: Al menos una vez
+
+2: exactamente una vez
+
 PWM
+
+Beneficios del Uso de PWM en el Proyecto.
+
+_El uso de PWM para el control de los LEDs permite un ajuste preciso de la intensidad luminosa sin necesidad de variar el voltaje de alimentación, lo cual es más eficiente en términos energéticos y simplifica el diseño del circuito. Mediante PWM, el proyecto ofrece:
+
+_Control de Intensidad Luminosa: Ajuste continuo de brillo en cada color de la tira LED RGB y del LED blanco.
+
+_Combinación de Colores: Mediante la mezcla de intensidades de rojo, verde y azul, es posible obtener una amplia gama de colores personalizados.
+
+_Ahorro Energético: La técnica PWM reduce el consumo energético, ya que el LED solo consume energía durante los pulsos de encendido.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ⚡Hardware
 
