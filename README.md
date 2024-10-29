@@ -47,10 +47,12 @@ En la app se puede prender y apagar los tres leds principales a tu gusto así co
 🔌 Conexiones esquematicas
 
 ESQUEMATICO
-*IMAGEN
+![Captura de pantalla 2024-10-29 103627](https://github.com/user-attachments/assets/428ba8a4-1c9d-4c4c-a153-7ae0898b586e)
+
 
 PCB
-*IMAGEN
+![Captura de pantalla 2024-10-29 103658](https://github.com/user-attachments/assets/5d013eff-d4bc-4204-a4fe-df0698b17f67)
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📟 Codigos y software
 
