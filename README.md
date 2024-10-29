@@ -21,7 +21,7 @@ Nuestro proyecto se basa en una lámpara, la cual se puede controlar por medio d
 
 ⚡ Hardware
 
-🛠️ Armado final
+🛠️ Conclusiones finales
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ⚙️ Componentes & funcionamiento
@@ -55,3 +55,17 @@ PCB
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ⚡Hardware
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+🛠️ Conclusiones finales
+Los objetivos que queremos conseguir con este proyecto es aplicar todos los conocimientos que hemos adquirido con el paso de los años, además de aprender nuevos. Además de brindarle al usuario una lámpara la cual cumpla su función decorativa y de iluminación.
+
+Desde un punto de vista profesional, hay aspectos a reconocer como bases fuertes, y otros a mejorar.
+
+Con un capital y producción mayores a los que nosotros tenemos se podrían mejorar los siguientes puntos:
+
+_Mejorar la estructura del código, agregando funciones que hagan más sencilla la interacción entre el usuario y la aplicación móvil.
+_Mejora de la estructura física con materiales que sean más resistentes, duraderos y más lindos estéticamente.
+_Crear una aplicación propia que tenga una conexión con otro broker MQTT y que permita al usuario poder tener varias lámparas conectadas en un solo dispositivo. 
+
+Ultima seccion, adjuntar PDF del proyecto y repositorio Github
