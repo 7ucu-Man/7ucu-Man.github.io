@@ -144,8 +144,10 @@ Desde un punto de vista profesional, hay aspectos a reconocer como bases fuertes
 Con un capital y producción mayores a los que nosotros tenemos se podrían mejorar los siguientes puntos:
 
 _Mejorar la estructura del código, agregando funciones que hagan más sencilla la interacción entre el usuario y la aplicación móvil.
+
 _Mejora de la estructura física con materiales que sean más resistentes, duraderos y más lindos estéticamente.
+
 _Crear una aplicación propia que tenga una conexión con otro broker MQTT y que permita al usuario poder tener varias lámparas conectadas en un solo dispositivo. 
 
 
-Ultima seccion, adjuntar PDF del proyecto y repositorio Github
+*Ultima seccion, adjuntar PDF del proyecto y repositorio Github*
