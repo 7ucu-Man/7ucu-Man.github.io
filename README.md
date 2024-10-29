@@ -19,7 +19,7 @@ Nuestro proyecto se basa en una lámpara, la cual se puede controlar por medio d
 
 📟 Codigos y software
 
-⚡ Ultimos cambios
+⚡ Hardware
 
 🛠️ Armado final
 
@@ -43,4 +43,15 @@ Ej: Si queremos Violeta, necesitamos Azul y Rojo además de la intensidad de ilu
 En la app se puede prender y apagar los tres leds principales a tu gusto así como su fuerza de luminosidad. 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-u
+🔌 Conexiones esquematicas
+
+ESQUEMATICO
+*IMAGEN
+
+PCB
+*IMAGEN
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📟 Codigos y software
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+⚡Hardware
