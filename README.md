@@ -1,6 +1,6 @@
 # LAMPARA ELECTRONICA ADVANCE
 
-tempaños
+
 
 ![Captura de pantalla 2024-10-29 103329](https://github.com/user-attachments/assets/93936b83-1bd0-48de-af7b-4972f1e8836e)
 
@@ -21,7 +21,7 @@ Nuestro proyecto se basa en una lámpara, la cual se puede controlar por medio d
 🛠️ Conclusiones finales
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-⚙️ Componentes & funcionamiento
+# ⚙️ Componentes & funcionamiento
 
 MQTT
 
@@ -46,11 +46,12 @@ Ej: Si queremos Violeta, necesitamos Azul y Rojo además de la intensidad de ilu
 En la app se puede prender y apagar los tres leds principales a tu gusto así como su fuerza de luminosidad. 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🔌 Conexiones esquematicas
+# 🔌 Conexiones esquematicas
 
 ESQUEMATICO
 
-*IMAGEN
+![Captura de pantalla 2024-10-31 135246](https://github.com/user-attachments/assets/70c51386-3b68-417f-a82d-b131e0e5ea18)
+
 
 
 PCB
@@ -92,7 +93,7 @@ _Combinación de Colores: Mediante la mezcla de intensidades de rojo, verde y az
 _Ahorro Energético: La técnica PWM reduce el consumo energético, ya que el LED solo consume energía durante los pulsos de encendido.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-⚡Hardware
+# ⚡Hardware
 
 ESP32
 Características del ESP32 en el proyecto:
@@ -162,7 +163,7 @@ _Controlador: Para manipular los colores y los efectos de la tira, se necesita u
 _Consumo de corriente: Las tiras RGB consumen una cantidad significativa de corriente, especialmente cuando están encendidas al máximo brillo. Es importante asegurarse de que la fuente de alimentación sea adecuada para soportar el consumo.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🛠️ Conclusiones finales
+# 🛠️ Conclusiones finales
 Los objetivos que queremos conseguir con este proyecto es aplicar todos los conocimientos que hemos adquirido con el paso de los años, además de aprender nuevos. Además de brindarle al usuario una lámpara la cual cumpla su función decorativa y de iluminación.
 
 Desde un punto de vista profesional, hay aspectos a reconocer como bases fuertes, y otros a mejorar.
