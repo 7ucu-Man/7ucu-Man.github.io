@@ -10,7 +10,7 @@ Nuestro proyecto se basa en una lámpara, la cual se puede controlar por medio d
 # 📒 Indice
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-⚙️ Componentes & funcionamiento
+⚙️ Componentes & funcionamiento #1
 
 🔌 Conexiones esquematicas
 
@@ -21,7 +21,7 @@ Nuestro proyecto se basa en una lámpara, la cual se puede controlar por medio d
 🛠️ Conclusiones finales
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# ⚙️ Componentes & funcionamiento
+#1 ⚙️ Componentes & funcionamiento
 
 MQTT
 
