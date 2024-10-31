@@ -1,7 +1,6 @@
-# 7ucu-Man.github.io
-LAMPARA ELECTRONICA ADVANCE
+# LAMPARA ELECTRONICA ADVANCE
 
-
+tempaños
 
 ![Captura de pantalla 2024-10-29 103329](https://github.com/user-attachments/assets/93936b83-1bd0-48de-af7b-4972f1e8836e)
 
