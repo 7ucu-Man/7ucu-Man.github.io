@@ -252,14 +252,9 @@ _Consumo de Corriente:_
 Los objetivos que queremos conseguir con este proyecto es aplicar todos los conocimientos que hemos adquirido con el paso de los años, además de aprender nuevos. Además de brindarle al usuario una lámpara la cual cumpla su función decorativa y de iluminación.
 
 Desde un punto de vista profesional, hay aspectos a reconocer como bases fuertes, y otros a mejorar.
+Como tener bases sólidas en conocimientos y diseño actual.
 
-Con un capital y producción mayores a los que nosotros tenemos se podrían mejorar los siguientes puntos:
-
-_Mejorar la estructura del código, agregando funciones que hagan más sencilla la interacción entre el usuario y la aplicación móvil.
-
-_Mejora de la estructura física con materiales que sean más resistentes, duraderos y más lindos estéticamente.
-
-_Crear una aplicación propia que tenga una conexión con otro broker MQTT y que permita al usuario poder tener varias lámparas conectadas en un solo dispositivo. 
+Áreas de mejora: Código: Mejorar estructura y agregar funciones para una interacción más sencilla; estructura física: Usar materiales más resistentes y estéticamente agradables; aplicación propia: Desarrollar una app con conexión a otro broker MQTT, permitiendo controlar varias lámparas desde un solo dispositivo.
 
 
 _*Alumnos:*_
