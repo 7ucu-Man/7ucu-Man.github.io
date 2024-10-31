@@ -254,7 +254,7 @@ Los objetivos que queremos conseguir con este proyecto es aplicar todos los cono
 Desde un punto de vista profesional, hay aspectos a reconocer como bases fuertes, y otros a mejorar.
 Como tener bases sólidas en conocimientos y diseño actual.
 
-Áreas de mejora: Código: Mejorar estructura y agregar funciones para una interacción más sencilla; estructura física: Usar materiales más resistentes y estéticamente agradables; aplicación propia: Desarrollar una app con conexión a otro broker MQTT, permitiendo controlar varias lámparas desde un solo dispositivo.
+Áreas de mejora: el código: mejorar estructura y agregar funciones para una interacción más sencilla; estructura física: usar materiales más resistentes y estéticamente agradables; aplicación propia: desarrollar una app con conexión a otro broker MQTT, permitiendo controlar varias lámparas desde un solo dispositivo.
 
 
 _*Alumnos:*_
