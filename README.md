@@ -60,7 +60,7 @@ En la app se puede prender y apagar los tres leds principales a tu gusto así co
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📟 Software
+# 📟 Software
 
 MQTT
 
@@ -192,3 +192,5 @@ Zuñiga Juan José
 Links:
 
 Repositorio del proyecto: https://github.com/7ucu-Man/Lampara-LED-Advance
+
+Informe del proyecto *link del docx
