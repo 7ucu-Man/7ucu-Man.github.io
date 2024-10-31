@@ -72,64 +72,84 @@ Combinación de Colores
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # 📟 Software
 
-MQTT
-
 Características del MQTT
 
-_Ligero y eficiente: Los clientes MQTT requieren pocos recursos para poder funcionar y optimizar el ancho de banda de la red.
+Ligero y eficiente
 
-_Seguridad: El MQTT facilita el cifrado de mensajes mediante TLS y la autenticación de clientes.
+-Requiere pocos recursos para funcionar.
 
-_TLS: es un protocolo de seguridad que ofrece privacidad e integridad de datos para las comunicaciones de internet.
+-Optimiza el ancho de banda de la red.
 
-_Entrega de mensajes confiables: El MQTT tiene 3 niveles de calidad de servicio:
+Seguridad
 
-0: Como máximo una vez
+-Cifra mensajes mediante TLS.
 
-1: Al menos una vez
+-Autenticación de clientes.
 
-2: exactamente una vez
+-TLS: Protocolo de seguridad que ofrece privacidad e integridad de datos para comunicaciones en internet.
+
+Entrega de mensajes confiables
+
+-Niveles de calidad de servicio:
+
+-0: Como máximo una vez.
+
+-1: Al menos una vez.
+
+-2: Exactamente una vez.
 
 PWM
 
 Beneficios del Uso de PWM en el Proyecto.
 
-_El uso de PWM para el control de los LEDs permite un ajuste preciso de la intensidad luminosa sin necesidad de variar el voltaje de alimentación, lo cual es más eficiente en términos energéticos y simplifica el diseño del circuito. Mediante PWM, el proyecto ofrece:
+Control de Intensidad Luminosa
 
-_Control de Intensidad Luminosa: Ajuste continuo de brillo en cada color de la tira LED RGB y del LED blanco.
+-Ajuste preciso y continuo del brillo en cada color de la tira LED RGB y el LED blanco.
 
-_Combinación de Colores: Mediante la mezcla de intensidades de rojo, verde y azul, es posible obtener una amplia gama de colores personalizados.
+Combinación de Colores
 
-_Ahorro Energético: La técnica PWM reduce el consumo energético, ya que el LED solo consume energía durante los pulsos de encendido.
+-Mezcla de intensidades de rojo, verde y azul para obtener una amplia gama de colores personalizados.
+
+Ahorro Energético
+
+-Reducción del consumo energético, ya que el LED solo consume energía durante los pulsos de encendido.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # ⚡Hardware
 
 ESP32
-Características del ESP32 en el proyecto:
 
- 1. Conectividad Wi-Fi y Blynk:
+-Microcontrolador con conectividad WiFi y Bluetooth.
 
-_El ESP32 se conecta a tu red Wi-Fi utilizando el SSID y la contraseña que defines en el código.
+-Popular en proyectos de IoT por su capacidad de conectarse a redes inalámbricas y su alto rendimiento.
 
-_Utiliza la librería Blink para interactuar con una aplicación en tu smartphone. Blynk permite controlar y monitorear dispositivos de forma remota.
+Funciones en el Proyecto
 
-_La autenticación con Blink se hace mediante un token (BLYNK_AUTH_T0KEN), lo que permite asociar tu ESP32 con la aplicación en la nube de Blynk.
+-Control de LEDs: El ESP32 envía señales a través de un transistor MOSFET para encender (1) o apagar (0) los LEDs.
 
- 2. Control de LEDs RGB:
+Características del ESP32 en el Proyecto
 
-_Los pines GPIO del ESP32 (pines 17, 19 y 23) están conectados a los canales rojo, verde y azul de los LEDs RGB, respectivamente. Estos pines controlan la intensidad de cada color mediante PWM.
+Conectividad Wi-Fi y Blynk:
 
-_PWM (Modulación por ancho de pulso): El ESP32 ajusta la cantidad de corriente que pasa a cada color de los LEDs. Al variar el ciclo de trabajo del PWM (un valor entre 0 y 255), puedes cambiar la intensidad del rojo, verde y azul, logrando diferentes colores combinados.
+-Se conecta a la red Wi-Fi usando SSID y contraseña definidos en el código.
 
- 3. Interacción con la App Blynk:
+-Utiliza la librería Blynk para control remoto y monitoreo mediante una aplicación móvil.
 
-_Desde la app de Blink, tienes un botón que enciende o apaga los LEDs, y sliders (deslizadores) que controlan la intensidad de los colores rojo, verde y azul.
+-La autenticación con Blynk se realiza mediante un token (BLYNK_AUTH_TOKEN).
 
-_Los valores de los sliders se envían desde la app Blink al ESP32 mediante los pines virtuales V1 (rojo), V2 (verde) y V3 (azul).
+Control de LEDs RGB:
 
-_Cada vez que cambias un slider en la app, el valor se envía al ESP32, y la función “analogWrite( )” ajusta la intensidad de cada color en los LEDs.
+-Pines GPIO (17, 19, 23) conectados a los canales rojo, verde y azul de los LEDs RGB.
 
+-Control de intensidad de cada color mediante PWM (Modulación por Ancho de Pulso).
+
+Interacción con la App Blynk:
+
+-La app permite encender/apagar los LEDs y ajustar la intensidad de los colores mediante sliders.
+
+-Valores de sliders enviados al ESP32 a través de pines virtuales (V1, V2, V3).
+
+-La función analogWrite() ajusta la intensidad de cada color en los LEDs.
 
 
 Step-Down
