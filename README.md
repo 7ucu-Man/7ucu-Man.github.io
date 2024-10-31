@@ -10,18 +10,18 @@ Nuestro proyecto se basa en una lámpara, la cual se puede controlar por medio d
 # 📒 Indice
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-⚙️ Componentes & funcionamiento #1
+- ⚙️ Componentes & funcionamiento
 
-🔌 Conexiones esquematicas
+- 🔌 Conexiones esquematicas
 
-📟 Software
+- 📟 Software
 
-⚡ Hardware
+- ⚡ Hardware
 
-🛠️ Conclusiones finales
+- 🛠️ Conclusiones finales
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#1 ⚙️ Componentes & funcionamiento
+# ⚙️ Componentes & funcionamiento
 
 MQTT
 
