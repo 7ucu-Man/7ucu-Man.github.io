@@ -71,6 +71,33 @@ Los componentes principales utilizados para el desarrollo del proyecto:
 -Función: Establecer conexión y comunicación con el microcontrolador (ESP32).
 
 
+*Conectividad Wi-Fi y Blynk (ESP32)*
+
+_Conexión a Wi-Fi:_
+
+-El ESP32 se conecta usando el SSID y la contraseña definidos en el código.
+
+_Interacción con la App:_
+
+-Utiliza la librería Blynk para controlar y monitorear dispositivos remotamente.
+
+-Autenticación mediante token (BLYNK_AUTH_TOKEN) para asociar el ESP32 con la aplicación en la nube.
+
+_Interacción con la App Blynk_
+
+_Control de LEDs:_
+
+-Botón en la app para encender/apagar los LEDs.
+
+-Sliders para controlar la intensidad de los colores rojo, verde y azul.
+
+_Envío de Valores:_
+
+-Valores de sliders enviados al ESP32 a través de pines virtuales (V1: rojo, V2: verde, V3: azul).
+
+-Función analogWrite() ajusta la intensidad de cada color en los LEDs.
+
+
 *PWM*
 
 _Beneficios del Uso de PWM en el Proyecto:_
@@ -103,30 +130,6 @@ _Beneficios del Uso de PWM en el Proyecto:_
 _Funciones en el Proyecto_
 
 -Control de LEDs: El ESP32 envía señales a través de un transistor MOSFET para encender (1) o apagar (0) los LEDs.
-
-_Características del ESP32 en el Proyecto_
-
-_Conectividad Wi-Fi y Blynk:_
-
--Se conecta a la red Wi-Fi usando SSID y contraseña definidos en el código.
-
--Utiliza la librería Blynk para control remoto y monitoreo mediante una aplicación móvil.
-
--La autenticación con Blynk se realiza mediante un token (BLYNK_AUTH_TOKEN).
-
-_Control de LEDs RGB:_
-
--Pines GPIO (17, 19, 23) conectados a los canales rojo, verde y azul de los LEDs RGB.
-
--Control de intensidad de cada color mediante PWM (Modulación por Ancho de Pulso).
-
-_Interacción con la App Blynk:_
-
--La app permite encender/apagar los LEDs y ajustar la intensidad de los colores mediante sliders.
-
--Valores de sliders enviados al ESP32 a través de pines virtuales (V1, V2, V3).
-
--La función analogWrite() ajusta la intensidad de cada color en los LEDs.
 
 
 *Step-Down*
