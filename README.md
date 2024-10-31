@@ -10,15 +10,15 @@ Nuestro proyecto se basa en una lámpara, la cual se puede controlar por medio d
 # 📒 Indice
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- ⚙️ Componentes & funcionamiento
+⚙️ Componentes & funcionamiento
 
-- 🔌 Conexiones esquematicas
+🔌 Conexiones esquematicas
 
-- 📟 Software
+📟 Software
 
-- ⚡ Hardware
+⚡ Hardware
 
-- 🛠️ Conclusiones finales
+🛠️ Conclusiones finales
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # ⚙️ Componentes & funcionamiento
