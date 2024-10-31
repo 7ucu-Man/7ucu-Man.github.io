@@ -257,7 +257,7 @@ Como tener bases sólidas en conocimientos y diseño actual.
 Áreas de mejora: el código: mejorar estructura y agregar funciones para una interacción más sencilla; estructura física: usar materiales más resistentes y estéticamente agradables; aplicación propia: desarrollar una app con conexión a otro broker MQTT, permitiendo controlar varias lámparas desde un solo dispositivo.
 
 
-_*Alumnos:*_
+*Alumnos:*
 
 Canelo Lucas
 
@@ -269,7 +269,7 @@ Montial Octavio
 
 Zuñiga Juan José
 
-_*Links:*_
+*Links:*
 
 Repositorio del proyecto: https://github.com/7ucu-Man/Lampara-LED-Advance
 
