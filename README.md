@@ -4,7 +4,8 @@
 
 ![Captura de pantalla 2024-10-29 103329](https://github.com/user-attachments/assets/93936b83-1bd0-48de-af7b-4972f1e8836e)
 
-Nuestro proyecto se basa en una lámpara, la cual se puede controlar por medio de una aplicación móvil-página web, siendo posible determinar su encendido, apagado, como también su intensidad entre los colores que se utilizan en la lámpara: verde, rojo, azul y blaco.
+_Nuestro proyecto_
+ se basa en una lámpara, la cual se puede controlar por medio de una aplicación móvil-página web, siendo posible determinar su encendido, apagado, como también su intensidad entre los colores que se utilizan en la lámpara: verde, rojo, azul y blaco.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # 📒 Indice
@@ -48,13 +49,13 @@ En la app se puede prender y apagar los tres leds principales a tu gusto así co
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # 🔌 Conexiones esquematicas
 
-ESQUEMATICO
+*ESQUEMATICO*
 
 ![Captura de pantalla 2024-10-31 135246](https://github.com/user-attachments/assets/70c51386-3b68-417f-a82d-b131e0e5ea18)
 
 
 
-PCB
+*PCB*
 
 ![WhatsApp Image 2024-10-04 at 08 14 15](https://github.com/user-attachments/assets/0681dd35-5f44-4f11-bd1c-42ff735424d8)
 
