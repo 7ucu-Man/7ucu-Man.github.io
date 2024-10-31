@@ -29,7 +29,7 @@ Nuestro proyecto consiste en una lámpara inteligente controlable a través de u
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # ⚙️ Componentes & funcionamiento
 
-MQTT (Cliente-Servidor)
+*MQTT (Cliente-Servidor)*
 
 -Cliente: Lámpara conectada al servidor.
 
@@ -38,7 +38,7 @@ MQTT (Cliente-Servidor)
 -Función: Establecer conexión y comunicación con el microcontrolador (ESP32).
 
 
-PWM (Modulación por Ancho de Pulso)
+*PWM (Modulación por Ancho de Pulso)*
 
 -Técnica: Transmite señales analógicas usando una señal portadora digital.
 
@@ -47,7 +47,7 @@ PWM (Modulación por Ancho de Pulso)
 -Uso: Controla la intensidad de iluminación de los LEDs.
 
 
-Combinación de Colores
+*Combinación de Colores*
 
 -Aplicación: Permite cambiar el color de los LEDs (Rojo, Verde, Azul).
 
@@ -72,9 +72,9 @@ Combinación de Colores
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # 📟 Software
 
-Características del MQTT
+*Características del MQTT*
 
-Ligero y eficiente
+-Ligero y eficiente-
 
 -Requiere pocos recursos para funcionar.
 
@@ -276,7 +276,7 @@ Montial Octavio
 
 Zuñiga Juan José
 
-Links:
+_*Links:*_
 
 Repositorio del proyecto: https://github.com/7ucu-Man/Lampara-LED-Advance
 
