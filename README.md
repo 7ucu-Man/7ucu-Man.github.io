@@ -154,28 +154,50 @@ Interacción con la App Blynk:
 
 Step-Down
 
-_Alta eficiencia: Los convertidores Step Down suelen tener una eficiencia del 85% al 95%, lo que significa que se pierde muy poca energía en forma de calor.
+Principales Componentes:
 
-_Regulación de voltaje: Estos dispositivos permiten un control preciso del voltaje de salida.
+-Transistor de Conmutación: Actúa como un interruptor, controlando el flujo de corriente.
 
-_Pequeño tamaño: Son compactos y fáciles de integrar en proyectos electrónicos.
+-Inductor: Almacena y libera energía, suavizando la salida de corriente.
+
+-Diodo: Permite el flujo de corriente cuando el transistor está apagado.
+
+-Capacitor: Suaviza el voltaje de salida, eliminando fluctuaciones y "ruido".
+
+-Controlador PWM: Ajusta el ciclo de trabajo del transistor para regular el voltaje de salida.
+
+Características Importantes
+
+-Alta eficiencia: 85%-95%, con mínima pérdida de energía.
+
+-Regulación de voltaje: Control preciso del voltaje de salida.
+
+-Pequeño tamaño: Compactos y fáciles de integrar en proyectos electrónicos.
 
 
 Modulo de carga (TP4056)
 
-_Cargador para baterías de litio: Diseñado específicamente para cargar baterías de iones de litio (Li-Ion) o de polímero de litio (Li-Po).
+-Descripción: Dispositivo para cargar baterías de iones de litio (Li-Ion) o polímero de litio (Li-Po).
 
-_Voltaje de entrada: 4.5V a 5.5V, comúnmente alimentado por un puerto USB (5V).
+-Aplicación: Ideal para recargar baterías de forma segura y eficiente, ofreciendo protección contra sobrecarga, sobredescarga y cortocircuitos.
 
-_Corriente de carga: Ajustable, con un valor predeterminado de 1A.
+Características del Módulo TP4056
 
-_Protección integrada: Protección contra sobrecarga, sobredescarga y cortocircuitos. Esto lo hace muy seguro para baterías de litio, que son más sensibles a la sobrecarga y sobredescarga.
+-Cargador para baterías de litio: Diseñado específicamente para Li-Ion y Li-Po.
 
-_Indicadores LED: Tiene dos LEDs que indican el estado de la carga:
+-Voltaje de entrada: 4.5V a 5.5V (generalmente alimentado por un puerto USB de 5V).
+
+-Corriente de carga: Ajustable, predeterminada en 1A.
+
+Protección integrada:
+
+-Sobrecarga, sobredescarga y cortocircuitos
+
+Indicadores LED:
 
 -Rojo: La batería se está cargando.
 
--Azul: La batería está completamente cargada. 
+-Azul: La batería está completamente cargada.
 
 
 Tira led RGB
