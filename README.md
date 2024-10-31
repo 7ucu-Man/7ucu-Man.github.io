@@ -200,6 +200,24 @@ Indicadores LED:
 -Azul: La batería está completamente cargada.
 
 
+Transistor TK14G65W 
+
+-Descripción: Transistor IGBT de alta velocidad y alta capacidad de corriente.
+
+Características Principales:
+
+-Voltaje de colector-emisor (VCE): 650 V
+
+-Corriente de colector (IC): 14 A
+
+-Temperatura de operación máxima (Tj): 150°C
+
+-Tensión de saturación de encendido (VCE(sat)): Aproximadamente 1.7 V a 25°C
+
+-Frecuencia de conmutación: Alta, ideal para aplicaciones de alta velocidad
+
+-Resistencia térmica: Mejora la disipación de calor, aumentando la fiabilidad en aplicaciones industriales
+
 Tira led RGB
 
 Características principales:
@@ -245,4 +263,4 @@ Links:
 
 Repositorio del proyecto: https://github.com/7ucu-Man/Lampara-LED-Advance
 
-Informe del proyecto *link del docx
+Informe del proyecto: https://docs.google.com/document/d/1hIIw9WClmCf4YHHB72maDt7cbXanECphe6KCiFOogqk/edit?tab=t.0
