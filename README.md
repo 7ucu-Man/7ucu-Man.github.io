@@ -4,7 +4,13 @@
 
 ![Captura de pantalla 2024-10-29 103329](https://github.com/user-attachments/assets/93936b83-1bd0-48de-af7b-4972f1e8836e)
 
-Nuestro proyecto se basa en una lámpara, la cual se puede controlar por medio de una aplicación móvil-página web, siendo posible determinar su encendido, apagado, como también su intensidad entre los colores que se utilizan en la lámpara: verde, rojo, azul y blaco.
+Nuestro proyecto consiste en una lámpara inteligente controlable a través de una aplicación móvil o una página web. La lámpara permite:
+
+-Encendido y apagado remoto.
+
+-Ajuste de la intensidad de luz.
+
+-Cambio entre colores: verde, rojo, azul y blanco.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # 📒 Indice
@@ -23,27 +29,31 @@ Nuestro proyecto se basa en una lámpara, la cual se puede controlar por medio d
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # ⚙️ Componentes & funcionamiento
 
-MQTT
+MQTT (Cliente-Servidor)
 
-El MQTT es un protocolo de mensajería que funciona como “Cliente - Servidor”. El cliente sería la lámpara que tiene que estar conectado al servidor y el servidor sería la app del celular que estaría conectado a wifi.
+-Cliente: Lámpara conectada al servidor.
 
-Es necesario el MQTT en el proyecto porque sirve como conexión para la comunicación con el micro controlador (ESP32)
+-Servidor: Aplicación móvil conectada a WiFi.
 
-
-PWM
-
-El pwm es una técnica que se utiliza para transmitir señales analógicas cuya señal portadora será digital. En esta técnica se modifica el ciclo de trabajo de una señal periódica (una senoidal o una cuadrada, por ejemplo), ya sea para transmitir información a través de un canal de comunicaciones o para controlar la cantidad de energía que se envía a una carga.
-
-Básicamente, consiste en activar una salida digital durante un tiempo y mantenerla apagada durante el resto, generando así pulsos positivos que se repiten de manera constante.
+-Función: Establecer conexión y comunicación con el microcontrolador (ESP32).
 
 
-Combinación de colores
+PWM (Modulación por Ancho de Pulso)
 
-Mediante nuestra aplicación se puede cambiar el color de los leds además de los 3 principales (Rojo, Verde, Azul). Para eso, se regulan la intensidad de iluminación de cada led.
+-Técnica: Transmite señales analógicas usando una señal portadora digital.
 
-Ej: Si queremos Violeta, necesitamos Azul y Rojo además de la intensidad de iluminación.
+-Funcionamiento: Modifica el ciclo de trabajo de una señal periódica para controlar la energía enviada a una carga.
 
-En la app se puede prender y apagar los tres leds principales a tu gusto así como su fuerza de luminosidad. 
+-Uso: Controla la intensidad de iluminación de los LEDs.
+
+
+Combinación de Colores
+
+-Aplicación: Permite cambiar el color de los LEDs (Rojo, Verde, Azul).
+
+-Ejemplo: Para obtener Violeta, se combinan Azul y Rojo ajustando su intensidad.
+
+-Control: Enciende/apaga LEDs principales y regula su luminosidad.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # 🔌 Conexiones esquematicas
