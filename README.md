@@ -72,15 +72,17 @@ Nuestro proyecto consiste en una lámpara inteligente controlable a través de u
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # 📟 Software
 
-*Características del MQTT*
+*MQTT*
 
--Ligero y eficiente-
+_Características del MQTT_
+
+-Ligero y eficiente
 
 -Requiere pocos recursos para funcionar.
 
 -Optimiza el ancho de banda de la red.
 
-Seguridad
+_Seguridad_
 
 -Cifra mensajes mediante TLS.
 
@@ -88,48 +90,44 @@ Seguridad
 
 -TLS: Protocolo de seguridad que ofrece privacidad e integridad de datos para comunicaciones en internet.
 
-Entrega de mensajes confiables
+_Entrega de mensajes confiables_
 
 -Niveles de calidad de servicio:
 
--0: Como máximo una vez.
+-0: Como máximo una vez; 1: Al menos una vez; 2: Exactamente una vez.
 
--1: Al menos una vez.
+*PWM*
 
--2: Exactamente una vez.
+_Beneficios del Uso de PWM en el Proyecto:_
 
-PWM
-
-Beneficios del Uso de PWM en el Proyecto.
-
-Control de Intensidad Luminosa
+_Control de Intensidad Luminosa_
 
 -Ajuste preciso y continuo del brillo en cada color de la tira LED RGB y el LED blanco.
 
-Combinación de Colores
+_Combinación de Colores_
 
 -Mezcla de intensidades de rojo, verde y azul para obtener una amplia gama de colores personalizados.
 
-Ahorro Energético
+_Ahorro Energético_
 
 -Reducción del consumo energético, ya que el LED solo consume energía durante los pulsos de encendido.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # ⚡Hardware
 
-ESP32
+*ESP32*
 
 -Microcontrolador con conectividad WiFi y Bluetooth.
 
 -Popular en proyectos de IoT por su capacidad de conectarse a redes inalámbricas y su alto rendimiento.
 
-Funciones en el Proyecto
+_Funciones en el Proyecto_
 
 -Control de LEDs: El ESP32 envía señales a través de un transistor MOSFET para encender (1) o apagar (0) los LEDs.
 
-Características del ESP32 en el Proyecto
+_Características del ESP32 en el Proyecto_
 
-Conectividad Wi-Fi y Blynk:
+_Conectividad Wi-Fi y Blynk:_
 
 -Se conecta a la red Wi-Fi usando SSID y contraseña definidos en el código.
 
@@ -137,13 +135,13 @@ Conectividad Wi-Fi y Blynk:
 
 -La autenticación con Blynk se realiza mediante un token (BLYNK_AUTH_TOKEN).
 
-Control de LEDs RGB:
+_Control de LEDs RGB:_
 
 -Pines GPIO (17, 19, 23) conectados a los canales rojo, verde y azul de los LEDs RGB.
 
 -Control de intensidad de cada color mediante PWM (Modulación por Ancho de Pulso).
 
-Interacción con la App Blynk:
+_Interacción con la App Blynk:_
 
 -La app permite encender/apagar los LEDs y ajustar la intensidad de los colores mediante sliders.
 
@@ -152,9 +150,9 @@ Interacción con la App Blynk:
 -La función analogWrite() ajusta la intensidad de cada color en los LEDs.
 
 
-Step-Down
+*Step-Down*
 
-Principales Componentes:
+_Principales Componentes:_
 
 -Transistor de Conmutación: Actúa como un interruptor, controlando el flujo de corriente.
 
@@ -166,7 +164,7 @@ Principales Componentes:
 
 -Controlador PWM: Ajusta el ciclo de trabajo del transistor para regular el voltaje de salida.
 
-Características Importantes
+_Características Importantes_
 
 -Alta eficiencia: 85%-95%, con mínima pérdida de energía.
 
@@ -175,13 +173,13 @@ Características Importantes
 -Pequeño tamaño: Compactos y fáciles de integrar en proyectos electrónicos.
 
 
-Modulo de carga (TP4056)
+*Modulo de carga (TP4056)*
 
 -Descripción: Dispositivo para cargar baterías de iones de litio (Li-Ion) o polímero de litio (Li-Po).
 
 -Aplicación: Ideal para recargar baterías de forma segura y eficiente, ofreciendo protección contra sobrecarga, sobredescarga y cortocircuitos.
 
-Características del Módulo TP4056
+_Características_
 
 -Cargador para baterías de litio: Diseñado específicamente para Li-Ion y Li-Po.
 
@@ -189,22 +187,22 @@ Características del Módulo TP4056
 
 -Corriente de carga: Ajustable, predeterminada en 1A.
 
-Protección integrada:
+_Protección integrada:_
 
 -Sobrecarga, sobredescarga y cortocircuitos
 
-Indicadores LED:
+_Indicadores LED:_
 
 -Rojo: La batería se está cargando.
 
 -Azul: La batería está completamente cargada.
 
 
-Transistor TK14G65W 
+*Transistor TK14G65W*
 
--Descripción: Transistor IGBT de alta velocidad y alta capacidad de corriente.
+-Descripción: Transistor de alta velocidad y alta capacidad de corriente.
 
-Características Principales:
+_Características Principales:_
 
 -Voltaje de colector-emisor (VCE): 650 V
 
@@ -219,31 +217,31 @@ Características Principales:
 -Resistencia térmica: Mejora la disipación de calor, aumentando la fiabilidad en aplicaciones industriales
 
 
-Tira LED RGB
+*Tira LED RGB*
 
-Características principales:
+_Características principales:_
 
-LEDs RGB:
+_LEDs RGB:_
 
 -Cada LED contiene tres chips: rojo, verde y azul.
 
 -Control individual para mezclar y obtener el color deseado.
 
-Control:
+_Control:_
 
 -Control individual o por segmentos (como en tiras WS2812B o WS2811).
 
-Voltaje de Operación:
+_Voltaje de Operación:_
 
 -Generalmente funcionan a 5V, 12V o 24V.
 
-Controlador:
+_Controlador:_
 
 -Necesario para manipular colores y efectos.
 
 -Uso de controladores comerciales o microcontroladores (Arduino, ESP32, Blynk).
 
-Consumo de Corriente:
+_Consumo de Corriente:_
 
 -Alto consumo, especialmente a máximo brillo.
 
