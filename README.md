@@ -16,9 +16,9 @@ Nuestro proyecto consiste en una lámpara inteligente controlable a través de u
 # 📒 Indice
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-⚙️ Componentes & funcionamiento
+⚙️ Componentes utilizados
 
-🔌 Conexiones esquematicas
+🔌 Esquemático y PCB
 
 📟 Software
 
@@ -27,36 +27,26 @@ Nuestro proyecto consiste en una lámpara inteligente controlable a través de u
 🛠️ Conclusiones finales
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# ⚙️ Componentes & funcionamiento
+# ⚙️ Componentes utilizados
 
-*MQTT (Cliente-Servidor)*
+Los componentes principales utilizados para el desarrollo del proyecto:
 
--Cliente: Lámpara conectada al servidor.
+-MQTT (Clienete-servidor)
 
--Servidor: Aplicación móvil conectada a WiFi.
+-PWM (Modulación por ancho de pulso)
 
--Función: Establecer conexión y comunicación con el microcontrolador (ESP32).
+-ESP32
 
+-Step-down
 
-*PWM (Modulación por Ancho de Pulso)*
+-Modulo de carga (TP4056)
 
--Técnica: Transmite señales analógicas usando una señal portadora digital.
+-Transistor TK14G65W
 
--Funcionamiento: Modifica el ciclo de trabajo de una señal periódica para controlar la energía enviada a una carga.
-
--Uso: Controla la intensidad de iluminación de los LEDs.
-
-
-*Combinación de Colores*
-
--Aplicación: Permite cambiar el color de los LEDs (Rojo, Verde, Azul).
-
--Ejemplo: Para obtener Violeta, se combinan Azul y Rojo ajustando su intensidad.
-
--Control: Enciende/apaga LEDs principales y regula su luminosidad.
+-Tira LED RGB
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# 🔌 Conexiones esquematicas
+# 🔌 Esquemático y PCB
 
 *ESQUEMATICO*
 
@@ -74,43 +64,32 @@ Nuestro proyecto consiste en una lámpara inteligente controlable a través de u
 
 *MQTT*
 
-_Características del MQTT_
+-Cliente: Lámpara conectada al servidor.
 
--Ligero y eficiente
+-Servidor: Aplicación móvil conectada a WiFi.
 
--Requiere pocos recursos para funcionar.
+-Función: Establecer conexión y comunicación con el microcontrolador (ESP32).
 
--Optimiza el ancho de banda de la red.
-
-_Seguridad_
-
--Cifra mensajes mediante TLS.
-
--Autenticación de clientes.
-
--TLS: Protocolo de seguridad que ofrece privacidad e integridad de datos para comunicaciones en internet.
-
-_Entrega de mensajes confiables_
-
--Niveles de calidad de servicio:
-
--0: Como máximo una vez; 1: Al menos una vez; 2: Exactamente una vez.
 
 *PWM*
 
 _Beneficios del Uso de PWM en el Proyecto:_
 
-_Control de Intensidad Luminosa_
+-Control de Intensidad Luminosa: ajuste preciso y continuo del brillo en cada color de la tira LED RGB y el LED blanco.
 
--Ajuste preciso y continuo del brillo en cada color de la tira LED RGB y el LED blanco.
+-Combinación de Colores: mezcla de intensidades de rojo, verde y azul para obtener una amplia gama de colores personalizados.
 
-_Combinación de Colores_
+-Ahorro Energético: reducción del consumo energético, ya que el LED solo consume energía durante los pulsos de encendido.
 
--Mezcla de intensidades de rojo, verde y azul para obtener una amplia gama de colores personalizados.
 
-_Ahorro Energético_
 
--Reducción del consumo energético, ya que el LED solo consume energía durante los pulsos de encendido.
+*Combinación de Colores*
+
+-Aplicación: Permite cambiar el color de los LEDs (Rojo, Verde, Azul).
+
+-Ejemplo: Para obtener Violeta, se combinan Azul y Rojo ajustando su intensidad.
+
+-Control: Enciende/apaga LEDs principales y regula su luminosidad.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # ⚡Hardware
@@ -164,14 +143,6 @@ _Principales Componentes:_
 
 -Controlador PWM: Ajusta el ciclo de trabajo del transistor para regular el voltaje de salida.
 
-_Características Importantes_
-
--Alta eficiencia: 85%-95%, con mínima pérdida de energía.
-
--Regulación de voltaje: Control preciso del voltaje de salida.
-
--Pequeño tamaño: Compactos y fáciles de integrar en proyectos electrónicos.
-
 
 *Modulo de carga (TP4056)*
 
@@ -179,73 +150,10 @@ _Características Importantes_
 
 -Aplicación: Ideal para recargar baterías de forma segura y eficiente, ofreciendo protección contra sobrecarga, sobredescarga y cortocircuitos.
 
-_Características_
-
--Cargador para baterías de litio: Diseñado específicamente para Li-Ion y Li-Po.
-
--Voltaje de entrada: 4.5V a 5.5V (generalmente alimentado por un puerto USB de 5V).
-
--Corriente de carga: Ajustable, predeterminada en 1A.
-
-_Protección integrada:_
-
--Sobrecarga, sobredescarga y cortocircuitos
-
-_Indicadores LED:_
-
--Rojo: La batería se está cargando.
-
--Azul: La batería está completamente cargada.
-
 
 *Transistor TK14G65W*
 
 -Descripción: Transistor de alta velocidad y alta capacidad de corriente.
-
-_Características Principales:_
-
--Voltaje de colector-emisor (VCE): 650 V
-
--Corriente de colector (IC): 14 A
-
--Temperatura de operación máxima (Tj): 150°C
-
--Tensión de saturación de encendido (VCE(sat)): Aproximadamente 1.7 V a 25°C
-
--Frecuencia de conmutación: Alta, ideal para aplicaciones de alta velocidad
-
--Resistencia térmica: Mejora la disipación de calor, aumentando la fiabilidad en aplicaciones industriales
-
-
-*Tira LED RGB*
-
-_Características principales:_
-
-_LEDs RGB:_
-
--Cada LED contiene tres chips: rojo, verde y azul.
-
--Control individual para mezclar y obtener el color deseado.
-
-_Control:_
-
--Control individual o por segmentos (como en tiras WS2812B o WS2811).
-
-_Voltaje de Operación:_
-
--Generalmente funcionan a 5V, 12V o 24V.
-
-_Controlador:_
-
--Necesario para manipular colores y efectos.
-
--Uso de controladores comerciales o microcontroladores (Arduino, ESP32, Blynk).
-
-_Consumo de Corriente:_
-
--Alto consumo, especialmente a máximo brillo.
-
--Fuente de alimentación adecuada es crucial.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # 🛠️ Conclusiones finales
