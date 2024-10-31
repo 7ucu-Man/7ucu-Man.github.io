@@ -264,7 +264,7 @@ _Mejora de la estructura física con materiales que sean más resistentes, durad
 _Crear una aplicación propia que tenga una conexión con otro broker MQTT y que permita al usuario poder tener varias lámparas conectadas en un solo dispositivo. 
 
 
-Alumnos:
+_*Alumnos:*_
 
 Canelo Lucas
 
