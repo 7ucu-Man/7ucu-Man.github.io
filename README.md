@@ -177,4 +177,18 @@ _Mejora de la estructura física con materiales que sean más resistentes, durad
 _Crear una aplicación propia que tenga una conexión con otro broker MQTT y que permita al usuario poder tener varias lámparas conectadas en un solo dispositivo. 
 
 
-*Ultima seccion, adjuntar PDF del proyecto y repositorio Github*
+Alumnos:
+
+Canelo Lucas
+
+Maiuro Ignacio
+
+Medrano Nicolas
+
+Montial Octavio
+
+Zuñiga Juan José
+
+Links:
+
+Repositorio del proyecto: https://github.com/7ucu-Man/Lampara-LED-Advance
